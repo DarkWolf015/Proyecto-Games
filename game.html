@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel Tijera</title>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+<body>
+    <div class="Styles">
+        <div id="juego">
+            <h2>Selecciona tu opcion<img src="./icons/piedra-papel-tijeras.png" height="35px"></h2> 
+            <div class="opciones">
+                <button onclick="eleccionDelUsuario('Piedra')">Piedra<img src="./icons/hacha.png" height="25px"></button>
+                <button onclick="eleccionDelUsuario('Papel')">Papel<img src="./icons/papelera.png" height="25px"></button>
+                <button onclick="eleccionDelUsuario('Tijera')">Tijera<img src="./icons/tijeras.png" height="25px"></button>
+            </div>
+        <div class="estilos">
+            <div id="resultado">
+                <p id="resultadoDeRonda">¡Esperando tu eleccion!</p>
+            </div>
+        </div>
+        
+        </div>
+    </div>    
+    <script src="./juego.js"></script>
+</body>
+</html>
